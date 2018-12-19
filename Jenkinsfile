@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                mvn --version
+                echo 'This will always run'
             }
         }
     }
