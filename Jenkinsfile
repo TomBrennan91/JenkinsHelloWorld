@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'This will always run'
+                bat 'mvn verify'
             }
         }
     }
