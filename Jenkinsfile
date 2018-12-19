@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-
-
+                echo 'This will always run'
             }
         }
     }
