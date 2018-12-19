@@ -4,4 +4,8 @@ public class Main {
         System.out.println("Jenkins Hello World");
     }
 
+    public static int testableFunction(){
+        return 1;
+    }
+
 }
