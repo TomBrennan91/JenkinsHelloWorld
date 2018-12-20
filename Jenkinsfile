@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'This will always run'
+                sh 'mvn package'
             }
         }
         stage('Test') {
