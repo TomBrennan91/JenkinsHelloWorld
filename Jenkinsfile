@@ -16,10 +16,5 @@ pipeline {
                 sh 'mvn verify'
             }
         }
-        stage('Deliver') {
-            steps {
-                sh 'mvn deploy'
-            }
-        }
     }
 }
